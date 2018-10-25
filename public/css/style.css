@@ -112,7 +112,7 @@ hr {
 	color: #555;
 }
 .navbar-custom .nav li a {
-	margin: 0 60px;
+	margin: 0 30px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	-webkit-transition: background .3s ease-in-out;
@@ -225,7 +225,18 @@ header .intro-text {
     margin: 0px
 }
 
-/* Experiencec Section */
+/* Project Section */
+#projects{
+	padding: 50px 0;
+	border:0 0 0 0;
+}
+.graphic{
+	padding:0;
+}
+.proj{
+	height: 250;
+}
+/* Experience Section */
 #experience {
 	padding: 50px 0;
 }
