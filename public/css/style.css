@@ -337,7 +337,7 @@ ol.type li a:hover {
 	transition: all 0.5s;
 }
 .hover-bg .hover-text>h4 {
-	text-transform: uppercase;
+	text-transform:none;
     margin-top:0;
 	opacity: 0;
     font-size:40px;
