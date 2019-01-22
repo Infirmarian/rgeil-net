@@ -10,6 +10,7 @@ body, html {
 	color: #777;
 	width: 100% !important;
 	height: 100% !important;
+	margin: 0;
 }
 
 #banner-img{
@@ -102,6 +103,9 @@ hr {
 	display: inline-block;
 	float: none;
 	vertical-align: top;
+}
+.nav-wrapper{
+	min-height: 71px;
 }
 .navbar .navbar-collapse {
 	text-align: center;
@@ -199,7 +203,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 #about .about-text {
 	margin-left: 10px;

@@ -22,7 +22,7 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
   </head>
-  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <body id="page-top" data-spy="scroll" data-target="scroll-spy-target">
 
   <!-- Promotional Banner -->
   <!--
@@ -48,25 +48,26 @@
       </div>
     </header>
   <!-- Navigation -->
-    <div id="nav">
-      <nav class="navbar navbar-custom">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+    <div class="nav-wrapper">
+      <div id="nav">
+        <nav class="navbar navbar-custom">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+            </div>
+            
+            <div class="collapse navbar-collapse navbar-main-collapse">
+              <ul class="nav navbar-nav">
+                <li> <a class="page-scroll" href="#about">About</a> </li>
+                <li><a class="page-scroll" href="#skills">Skills</a></li>
+                <li><a class = "page-scroll" href="#projects">Projects</a></li>
+                <li> <a class="page-scroll" href="#experience">Experience</a> </li>
+                <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+              </ul>
+            </div>
           </div>
-          
-          <div class="collapse navbar-collapse navbar-main-collapse">
-            <ul class="nav navbar-nav">
-              <li class="hidden"> <a href="#page-top"></a> </li>
-              <li> <a class="page-scroll" href="#about">About</a> </li>
-              <li><a class="page-scroll" href="#skills">Skills</a></li>
-              <li><a class = "page-scroll" href="#projects">Projects</a></li>
-              <li> <a class="page-scroll" href="#experience">Experience</a> </li>
-              <li> <a class="page-scroll" href="#contact">Contact</a> </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </div>
 
   <!-- About Section -->
@@ -180,7 +181,7 @@
           <h2>Get In Touch</h2>
           <hr>
         </div>
-        <a href="resume.pdf" target="_blank" class="btn btn-default btn-lg page-scroll">Check out my resume</a>   
+        <a href="resume.pdf" target="_blank" class="btn btn-default btn-lg">Check out my resume</a>   
         <div class="col-md-8 col-md-offset-2">
           <div class="social">
             <ul>
