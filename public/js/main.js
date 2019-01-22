@@ -20,7 +20,10 @@ $('#nav').affix({
       offset: {
         top: $('header').height()
       }
-});	
+    });
+$('#nav-wrapper').css({
+	'min-height': $('#nav').height() + 'px'
+});
 
 }());
 

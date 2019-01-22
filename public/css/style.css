@@ -104,9 +104,7 @@ hr {
 	float: none;
 	vertical-align: top;
 }
-.nav-wrapper{
-	min-height: 71px;
-}
+
 .navbar .navbar-collapse {
 	text-align: center;
 }
