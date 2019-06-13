@@ -1,0 +1,68 @@
+a {
+    color: #777;
+}
+a:hover{
+    color: #777;
+}
+
+h2{
+    color: #777;
+    margin-bottom: 5px;
+}
+.skill-images > img{
+    height: 50px;
+}
+
+.card-container {
+    perspective: 700px;
+}
+
+.card-flip, .card-container {
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+}
+
+.card-flip div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    text-align: center;
+}
+
+.back {
+    transform: rotateY(-180deg);
+    background: #f6f6f6;
+}
+
+.card-container:hover .card-flip {
+    transform: rotateY(180deg);
+}
+
+.card-flip {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    grid-template-areas: "frontAndBack";
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+}
+
+.front {
+    grid-area: frontAndBack;
+}
+
+.back {
+    grid-area: frontAndBack;
+    transform: rotateY(-180deg);
+}
+.npl{
+    padding: 0;
+}
+.npr{
+    padding: 0;
+}
+
+.centered-row{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
