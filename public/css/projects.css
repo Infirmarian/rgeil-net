@@ -1,6 +1,12 @@
 a {
     color: #777;
 }
+.back > a{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 10px;
+}
 a:hover{
     color: #777;
 }
@@ -8,13 +14,15 @@ a:hover{
 h2{
     color: #777;
     margin-bottom: 5px;
+    font-size: 25px;
 }
+
 .skill-images > img{
     height: 50px;
 }
 
 .card-container {
-    perspective: 700px;
+    perspective: 1000px;
 }
 
 .card-flip, .card-container {
@@ -64,5 +72,19 @@ h2{
     margin-left: 20px;
     margin-right: 20px;
 }
-
+#mobilenav{
+    top:0;
+    z-index: 1000;
+    width:100%;
+}
+.projects{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.title{
+    margin-top:30px;
+}
+.title > h2{
+    font-size: 50px;
+}
 
