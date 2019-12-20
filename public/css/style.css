@@ -127,9 +127,9 @@ hr {
   margin: 0 30px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
   outline: 0;
@@ -505,6 +505,19 @@ a:focus,
   html {
     background: #444;
     color: #ddd;
+  }
+  .intro {
+    display: table;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+    background: url(../img/dark.cbus_la.jpg) no-repeat center top;
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
   }
   h2 {
     color: #bbb;

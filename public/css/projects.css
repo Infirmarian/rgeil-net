@@ -1,90 +1,90 @@
 a {
-    color: #777;
+  color: #777;
 }
-.back > a{
-    display: inline-block;
-    font-size: 20px;
-    text-decoration: underline;
-    padding: 10px;
+.back > a {
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: underline;
+  padding: 10px;
 }
-a:hover{
-    color: #777;
-}
-
-h2{
-    color: #777;
-    margin-bottom: 5px;
-    font-size: 25px;
+a:hover {
+  color: #777;
 }
 
-.skill-images > img{
-    height: 50px;
+h2 {
+  color: #777;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.skill-images > img {
+  height: 50px;
 }
 
 .card-container {
-    perspective: 1000px;
+  perspective: 1000px;
 }
 
-.card-flip, .card-container {
-    transform-style: preserve-3d;
-    transition: all 0.7s ease;
+.card-flip,
+.card-container {
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
 }
 
 .card-flip div {
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-    text-align: center;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  text-align: center;
 }
 
 .back {
-    transform: rotateY(-180deg);
-    background: #f6f6f6;
+  transform: rotateY(-180deg);
+  background: #f6f6f6;
 }
 
 .card-container:hover .card-flip {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .card-flip {
-    display: grid;
-    grid-template: 1fr / 1fr;
-    grid-template-areas: "frontAndBack";
-    transform-style: preserve-3d;
-    transition: all 0.7s ease;
+  display: grid;
+  grid-template: 1fr / 1fr;
+  grid-template-areas: "frontAndBack";
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
 }
 
 .front {
-    grid-area: frontAndBack;
+  grid-area: frontAndBack;
 }
 
 .back {
-    grid-area: frontAndBack;
-    transform: rotateY(-180deg);
+  grid-area: frontAndBack;
+  transform: rotateY(-180deg);
 }
-.npl{
-    padding: 0;
+.npl {
+  padding: 0;
 }
-.npr{
-    padding: 0;
-}
-
-.centered-row{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-#mobilenav{
-    top:0;
-    z-index: 1000;
-    width:100%;
-}
-.projects{
-    margin-top: 30px;
-    margin-bottom: 70px;
-}
-.title{
-    margin-top:30px;
-}
-.title > h2{
-    font-size: 50px;
+.npr {
+  padding: 0;
 }
 
+.centered-row {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#mobilenav {
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+.projects {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.title {
+  margin-top: 30px;
+}
+.title > h2 {
+  font-size: 50px;
+}
