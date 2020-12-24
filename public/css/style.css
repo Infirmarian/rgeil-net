@@ -336,7 +336,7 @@ ol.type li a:hover {
   max-width: 650px;
 }
 .experience-item .hover-bg {
-  height: 360px;
+  /* height: 360px; */
   overflow: hidden;
   position: relative;
 }

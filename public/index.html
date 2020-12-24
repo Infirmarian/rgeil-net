@@ -57,7 +57,7 @@
             <div class="intro-text">
               <h1>Robert Geil</h1>
               <hr />
-              <p>Computer Science • Programming • Software Development</p>
+              <p>Computer Science • Software Engineering</p>
               <a href="#about" class="btn btn-default btn-lg page-scroll"
                 >Learn More</a
               >
@@ -118,6 +118,14 @@
                 2017 from Upper Arlington High School
               </p>
               <p>
+                I interned remotely for Belvedere Trading during Summer 2020,
+                where I completed Belvedere's internal training program focusing
+                on core option and market theory. I also lead a team of three to
+                build a microservice to stream, analyze and forward tweets,
+                allowing them to be consumed in real time and with historical
+                context by traders and quants to inform strategies.
+              </p>
+              <p>
                 In the Summer of 2019, I was a Security Technology and Response
                 intern at Symantec in Culver City, California. As an intern, I
                 built a virtual filesystem and registry from scratch in C++ to
@@ -135,11 +143,6 @@
                 was collected to solve issues on a larger scale, as well as
                 discover thousands of previously untracked sites, adding value
                 for ORIS's customers.
-              </p>
-              <p>
-                I have also worked on independent video game development using
-                Unity and C# Scripting, competing at hackathons and Game Jams
-                including Ludum Dare, and the Global Game Jam 2018 and 2019
               </p>
               <p>
                 I'm an Officer of ACM Game Studio, and have also been a
@@ -161,19 +164,24 @@
       <div class="container">
         <div class="col-lg-12 col-md-12 skill-images">
           <img src="img/skills/cpp.svg" height="110" width="100" title="C++" />
-          <img src="img/skills/cs.svg" height="110" width="100" title="C#" />
           <img
             src="img/skills/python.svg"
             height="110"
             width="110"
             title="Python"
           />
-          <img src="img/skills/java.png" height="110" width="60" title="Java" />
           <img
-            src="img/skills/javascript.png"
+            src="img/skills/typescript.svg"
             height="110"
             width="110"
-            title="JavaScript"
+            title="TypeScript"
+          />
+          <img src="img/skills/golang.png" height="110" width="90" title="Go" />
+          <img
+            src="img/skills/kotlin.svg"
+            height="110"
+            width="100"
+            title="Kotlin"
           />
           <img
             src="img/skills/postgres.svg"
@@ -206,6 +214,18 @@
           <hr />
         </div>
         <div class="col-xl-6 col-lg-6 col-sm-6 graphic">
+          <a
+            href="https://github.com/scalableinternetservices/wanderlust"
+            target="_blank"
+          >
+            <img
+              src="img/wanderlust.jpg"
+              class="proj img-responsive"
+              title="Wanderlust"
+            />
+          </a>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-sm-6 graphic">
           <a href="https://streamuniverse.net" target="_blank">
             <img
               src="img/streamuniverse.jpeg"
@@ -224,23 +244,11 @@
           </a>
         </div>
         <div class="col-xl-6 col-lg-6 col-sm-6 graphic">
-          <a
-            href="https://github.com/Infirmarian/Desert-Fishing/releases"
-            target="_blank"
-          >
+          <a href="https://github.com/hannahshpa/ToolPool" target="_blank">
             <img
-              src="img/desert_fishing.jpg"
+              src="img/toolpool.jpg"
               class="proj img-responsive"
-              title="Desert Fishing"
-            />
-          </a>
-        </div>
-        <div class="col-xl-6 col-lg-6 col-sm-6 graphic">
-          <a href="https://github.com/Infirmarian/saucebot" target="_blank">
-            <img
-              src="img/saucebot.png"
-              class="proj img-responsive"
-              title="Saucebot"
+              title="ToolPool"
             />
           </a>
         </div>
@@ -257,65 +265,84 @@
           <h2>Experience</h2>
           <hr />
         </div>
-        <div class="col-xl-6 col-lg-6 col-sm-6">
-          <div class="experience-item">
-            <div class="hover-bg">
-              <div class="hover-text">
-                <h4>STAR Intern at Symantec</h4>
-                <p>
-                  I worked to add support for <i>Behavioral Detections</i> of
-                  malware in an emulated environment, in the process writing my
-                  own <i>signature</i> language, complete with lexer, parser and
-                  compiler. In addition, I built a highly customizable virtual
-                  filesystem and registry from scratch, helping to support
-                  emulation of x86 executables
-                </p>
-              </div>
-              <img
-                src="img/symantec.jpeg"
-                class="img-responsive dark-convertable-image"
-                alt="Symantec"
-              />
+        <div class="experience-item col-xl-6 col-lg-6 col-sm-6">
+          <div class="hover-bg">
+            <div class="hover-text">
+              <h4>Software Engineer Intern at Belvedere Trading</h4>
+              <p>
+                I built a microservice to stream and analyze Twitter feeds, then
+                push to multiple endpoints, allowing significant Tweets to be
+                used in real time and with historical context by traders and
+                quants to inform strategies
+              </p>
             </div>
+            <img
+              src="img/belvederetrading.jpg"
+              class="proj img-responsive dark-convertable-image"
+              alt="Belvedere Trading"
+            />
           </div>
         </div>
-        <div class="col-xl-6 col-lg-6 col-sm-6">
-          <div class="experience-item">
-            <div class="hover-bg">
-              <div class="hover-text">
-                <h4>Intern at ORIS<br />Intelligence</h4>
-                <p>
-                  I used an Agile workflow to plan, develop, test and reevaluate
-                  software. During my internship, I wrote several Python web
-                  scrapers to visit sites monitored by ORIS and gather
-                  information for the company database. These scrapers allowed
-                  site monitoring issues to be detected and addressed on a much
-                  larger scale, and helped to discover thousands of previously
-                  untracked web pages. Tools I used included Python, MySQL and
-                  Git
-                </p>
-              </div>
-              <img
-                src="img/oris.jpg"
-                class="img-responsive dark-convertable-image"
-                alt="ORIS Intelligence"
-              />
+        <div class="col-xl-6 col-lg-6 col-sm-6 experience-item">
+          <div class="hover-bg">
+            <div class="hover-text">
+              <h4>S.T.A.R. Intern at Symantec</h4>
+              <p>
+                I worked to add support for <i>Behavioral Detections</i> of
+                malware in an emulated environment, in the process writing my
+                own <i>signature</i> language, complete with lexer, parser and
+                compiler. In addition, I built a highly customizable virtual
+                filesystem and registry from scratch, helping to support
+                emulation of x86 executables
+              </p>
             </div>
+            <img
+              src="img/symantec.jpeg"
+              class="proj img-responsive dark-convertable-image"
+              alt="Symantec"
+            />
           </div>
         </div>
-        <!--
-        <div class="col-xl-6 col-lg-6 col-sm-6">
-          <div class="experience-item">
-            <div class="hover-bg">
-              <div class="hover-text">
-                <h4>Officer of ACM Game&nbsp;Studio</h4>
-                <p>I am an officer in ACM Game Studio, where I teach and mentor other students learn the basics of game development. I also act as a team lead and guide a group of fellow students to develop small games through two quarters</p>
-              </div>
-              <img src="img/acm.png" class="img-responsive" alt="ACM Studio Officer">
+        <div class="col-xl-6 col-lg-6 col-sm-6 experience-item">
+          <div class="hover-bg">
+            <div class="hover-text">
+              <h4>Intern at ORIS<br />Intelligence</h4>
+              <p>
+                I used an Agile workflow to plan, develop, test and reevaluate
+                software. During my internship, I wrote several Python web
+                scrapers to visit sites monitored by ORIS and gather information
+                for the company database. These scrapers allowed site monitoring
+                issues to be detected and addressed on a much larger scale, and
+                helped to discover thousands of previously untracked web pages.
+                Tools I used included Python, MySQL and Git
+              </p>
             </div>
+            <img
+              src="img/oris.jpg"
+              class="proj img-responsive dark-convertable-image"
+              alt="ORIS Intelligence"
+            />
           </div>
         </div>
-      --></div>
+        <div class="col-xl-6 col-lg-6 col-sm-6 experience-item">
+          <div class="hover-bg">
+            <div class="hover-text">
+              <h4>Officer of ACM Game&nbsp;Studio</h4>
+              <p>
+                I am an officer in ACM Game Studio, where I teach and mentor
+                other students learn the basics of game development. I also act
+                as a team lead and guide a group of fellow students to develop
+                small games through two quarters
+              </p>
+            </div>
+            <img
+              src="img/acm.png"
+              class="proj img-responsive"
+              alt="ACM Studio Officer"
+            />
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Contact Section -->
     <div id="contact" class="text-center">
@@ -358,7 +385,7 @@
     <div id="footer">
       <div class="container text-center">
         <div class="fnav">
-          <p>&copy; 2019 Robert Geil</p>
+          <p>&copy; 2021 Robert Geil</p>
         </div>
       </div>
     </div>
